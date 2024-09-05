@@ -27,6 +27,9 @@ while True:
             
         elif numero_saques >= LIMITE_SAQUE:
                 print("Limite de saques atingido")
+
+        elif saque > limite:
+            print("Valor limite de saque excedido")
                 
         else:
             saldo -= saque
