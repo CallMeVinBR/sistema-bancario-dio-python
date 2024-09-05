@@ -31,6 +31,7 @@ while True:
         else:
             saldo -= saque
             extrato.append({'saque': saque})
+            numero_saques += 1
     
     elif opcao == 2:
         deposito = float(input("Depositar\nR$ "))
